@@ -12,10 +12,10 @@ from scipy.sparse.linalg import svds
 # Load data
 @st.cache_data
 def load_data():
-    students_df = pd.read_csv('dataset/students_data.csv')
-    programs_df = pd.read_csv('dataset/programs_data.csv')
-    history_df = pd.read_csv('dataset/application_history.csv')
-    interaction_matrix = np.load('dataset/interaction_matrix.npy')
+    students_df = pd.read_csv('students_data.csv')
+    programs_df = pd.read_csv('programs_data.csv')
+    history_df = pd.read_csv('application_history.csv')
+    interaction_matrix = np.load('interaction_matrix.npy')
 
     # Clean up lists stored as strings in the dataframes
     students_df['preferred_locations'] = students_df['preferred_locations'].apply(eval)
