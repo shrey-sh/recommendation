@@ -1,0 +1,501 @@
+student_id,age,gender,country_of_origin,undergraduate_major,undergraduate_gpa,work_experience_years,gre_score,toefl_score,research_experience,budget_range,preferred_locations,desired_specialization,career_goal
+1,27,Female,India,Business,3.255306524728432,1,323,103,0,Low,['USA'],Renewable Energy,Entrepreneurship
+2,24,Female,Germany,Computer Science,3.6616323503711468,1,321,110,0,Medium,"['Germany', 'Japan', 'UK']",Marketing,Industry
+3,33,Female,India,Business,3.9786312874005305,0,334,120,1,Low,['Japan'],Cybersecurity,Research
+4,31,Male,USA,Business,3.3742967671397928,2,340,105,0,High,['Singapore'],Business Analytics,Research
+5,28,Female,South Korea,Sciences,3.017515990862062,0,338,84,1,Low,['USA'],Software Engineering,Academia
+6,33,Female,USA,Humanities,3.244147290422374,1,310,99,0,High,['Germany'],Cybersecurity,Research
+7,25,Non-binary,UK,Computer Science,3.8308771913417052,0,335,120,0,High,"['Japan', 'USA']",Cybersecurity,Industry
+8,27,Female,India,Business,3.864608835955037,3,333,90,0,Low,"['Japan', 'Singapore']",Software Engineering,Research
+9,30,Non-binary,Brazil,Computer Science,3.768519364523791,3,310,112,0,Medium,"['Netherlands', 'Australia']",Renewable Energy,Industry
+10,23,Male,USA,Engineering,3.113109819076573,2,333,117,0,High,['Canada'],Business Analytics,Academia
+11,27,Male,Brazil,Sciences,3.795510371696403,0,300,106,0,Low,"['France', 'Australia', 'UK', 'Singapore']",Business Analytics,Academia
+12,31,Male,India,Engineering,3.9186777969935043,0,328,113,0,High,"['UK', 'Japan', 'Germany']",Marketing,Industry
+13,31,Male,India,Computer Science,3.600609542546236,2,293,94,1,Medium,['France'],Cybersecurity,Research
+14,28,Non-binary,India,Computer Science,3.940875356338065,1,340,111,0,Low,"['Australia', 'USA', 'France']",Cybersecurity,Academia
+15,25,Female,Nigeria,Humanities,3.8268388837118774,0,290,100,1,Low,"['Japan', 'UK', 'Germany', 'USA']",Biomedical Engineering,Entrepreneurship
+16,24,Male,Germany,Business,3.666971516990907,2,317,84,0,Low,"['France', 'Germany', 'Japan']",Finance,Academia
+17,28,Female,Brazil,Business,3.577185236711748,6,313,85,0,Medium,['USA'],Cybersecurity,Research
+18,28,Non-binary,India,Engineering,3.3485736672419706,2,324,117,0,High,"['Australia', 'UK']",Machine Learning,Entrepreneurship
+19,23,Non-binary,Germany,Sciences,3.1592874452428052,2,302,101,0,Low,"['UK', 'Singapore']",Finance,Research
+20,26,Non-binary,China,Arts,3.604953922690541,5,336,97,0,High,"['Netherlands', 'France', 'UK']",Machine Learning,Industry
+21,25,Male,China,Business,3.3181115536181194,0,323,93,0,High,"['France', 'Germany', 'Japan']",Business Analytics,Entrepreneurship
+22,22,Female,India,Humanities,3.866438667527645,2,300,89,0,Medium,"['UK', 'Canada', 'Australia']",Finance,Research
+23,28,Female,Brazil,Engineering,3.9933369373586283,6,325,92,0,Low,"['Canada', 'Netherlands']",Cybersecurity,Entrepreneurship
+24,32,Female,India,Engineering,3.7524277626155724,0,340,110,1,High,"['Australia', 'Germany', 'France', 'Canada']",Software Engineering,Research
+25,34,Non-binary,USA,Arts,3.0904816952870506,2,306,109,1,Low,['Germany'],Marketing,Entrepreneurship
+26,26,Male,Germany,Humanities,3.288685595530638,2,324,82,0,Low,['France'],Machine Learning,Research
+27,22,Non-binary,India,Sciences,3.1091096317657496,2,307,109,0,Medium,"['Australia', 'UK', 'Netherlands', 'Japan']",Finance,Industry
+28,32,Non-binary,USA,Humanities,3.6505116477917157,2,329,85,0,Low,"['Germany', 'Netherlands', 'Japan']",Cybersecurity,Entrepreneurship
+29,25,Female,India,Sciences,3.7651908645557848,5,311,108,0,Low,"['Canada', 'Australia', 'UK', 'Singapore']",Finance,Entrepreneurship
+30,21,Non-binary,China,Humanities,3.9256748308807117,3,313,87,0,High,"['Singapore', 'Japan', 'Canada']",Cybersecurity,Entrepreneurship
+31,32,Female,USA,Humanities,3.4381723464119878,0,308,112,0,Medium,"['Canada', 'Netherlands']",Cybersecurity,Entrepreneurship
+32,30,Male,China,Computer Science,3.901375649588444,4,326,96,0,Low,['USA'],Cybersecurity,Industry
+33,26,Female,Nigeria,Engineering,3.8778911590413276,0,328,90,0,High,['Canada'],Biomedical Engineering,Entrepreneurship
+34,33,Male,USA,Humanities,3.3171957167653985,1,310,92,0,Medium,"['Singapore', 'UK']",Marketing,Academia
+35,32,Female,USA,Arts,3.868900625540571,1,297,90,1,Medium,"['Singapore', 'Netherlands', 'Australia', 'Canada']",Software Engineering,Industry
+36,29,Non-binary,Brazil,Humanities,3.3756722518817264,1,317,110,1,High,['UK'],Software Engineering,Academia
+37,21,Non-binary,USA,Business,3.296869274560281,1,294,107,0,High,"['France', 'UK', 'Canada']",Finance,Entrepreneurship
+38,31,Male,USA,Engineering,3.649074658794393,5,306,85,1,High,"['Canada', 'Netherlands', 'USA', 'France']",Finance,Research
+39,31,Male,USA,Business,3.328381227885081,2,326,120,1,High,"['Japan', 'Canada', 'Australia']",Cybersecurity,Academia
+40,30,Male,China,Engineering,3.630208748329144,2,325,95,0,High,['Australia'],Biomedical Engineering,Entrepreneurship
+41,32,Female,China,Business,3.6098318054986946,0,308,83,0,Low,"['Canada', 'France']",Cybersecurity,Academia
+42,32,Female,UK,Humanities,3.563438927348459,4,316,114,0,Low,"['Japan', 'USA']",Biomedical Engineering,Entrepreneurship
+43,34,Male,Nigeria,Humanities,3.3804197042327977,4,323,105,1,Medium,"['Netherlands', 'USA', 'Japan']",Cybersecurity,Entrepreneurship
+44,34,Non-binary,India,Computer Science,3.548499721651477,3,300,91,1,Low,"['Australia', 'Germany', 'USA']",Machine Learning,Entrepreneurship
+45,34,Female,USA,Arts,3.5964854749854216,0,334,90,0,Low,"['UK', 'Japan']",Machine Learning,Research
+46,23,Female,China,Business,3.5456868884954735,0,336,116,0,Low,"['UK', 'Canada', 'Japan', 'France']",Business Analytics,Academia
+47,32,Female,UK,Sciences,3.4444194527512018,0,301,104,0,High,"['Japan', 'Canada', 'Netherlands', 'Australia']",Cybersecurity,Industry
+48,27,Male,India,Computer Science,3.014667057046264,0,310,97,0,Medium,"['Germany', 'Japan', 'France', 'Canada']",Marketing,Industry
+49,24,Male,India,Business,3.587061707701151,1,300,98,0,Medium,"['France', 'Netherlands', 'Australia', 'Germany']",Business Analytics,Industry
+50,29,Male,China,Business,3.1684443851427195,5,328,102,1,Medium,['Germany'],Finance,Industry
+51,23,Male,USA,Computer Science,3.6425759689471895,1,317,117,0,Medium,"['UK', 'France']",Renewable Energy,Entrepreneurship
+52,25,Male,Germany,Humanities,3.759344327922866,0,294,97,1,Low,['Japan'],Cybersecurity,Academia
+53,23,Non-binary,India,Business,3.5004453091307415,0,306,105,1,Low,"['Germany', 'USA']",Machine Learning,Academia
+54,27,Non-binary,Germany,Humanities,3.5423636649797383,0,309,85,1,High,['USA'],Renewable Energy,Research
+55,25,Male,India,Computer Science,3.951478559665991,0,330,83,0,Medium,"['UK', 'USA']",Biomedical Engineering,Academia
+56,29,Female,Germany,Humanities,3.8471673613725743,0,335,108,0,Low,"['UK', 'Germany', 'Canada']",Renewable Energy,Academia
+57,27,Male,India,Engineering,3.91423651595147,0,301,113,0,Low,"['Germany', 'Canada', 'France', 'Australia']",Marketing,Academia
+58,22,Non-binary,India,Sciences,3.813766288319586,3,295,96,0,High,"['Germany', 'Netherlands', 'Singapore', 'Japan']",Cybersecurity,Research
+59,24,Non-binary,Nigeria,Business,3.1089183418467314,6,306,95,0,High,"['UK', 'Japan']",Software Engineering,Industry
+60,29,Female,South Korea,Arts,3.148991855970195,1,340,81,0,High,"['France', 'Singapore', 'Germany', 'Netherlands']",Renewable Energy,Academia
+61,32,Non-binary,UK,Sciences,3.5266237972689596,1,308,113,0,Low,['UK'],Software Engineering,Research
+62,34,Male,USA,Humanities,3.2460696587979982,3,315,87,0,Low,['Singapore'],Biomedical Engineering,Research
+63,22,Female,UK,Business,3.476695475041159,0,337,92,0,High,"['UK', 'Germany', 'Japan']",Business Analytics,Entrepreneurship
+64,30,Male,India,Humanities,3.3943653238183504,0,333,87,0,Medium,"['Japan', 'Netherlands']",Software Engineering,Research
+65,29,Male,South Korea,Engineering,3.5494142384304532,4,333,109,1,High,"['Singapore', 'Canada']",Business Analytics,Industry
+66,30,Female,USA,Computer Science,3.746875716135823,0,321,111,1,High,"['Netherlands', 'Germany', 'Singapore']",Machine Learning,Academia
+67,25,Male,Brazil,Business,3.7154909070992743,2,295,115,0,High,['Netherlands'],Cybersecurity,Research
+68,22,Non-binary,Germany,Engineering,3.5212341324853345,2,325,109,0,High,['USA'],Renewable Energy,Industry
+69,24,Male,Brazil,Engineering,3.8223934188170583,1,327,80,0,Low,['UK'],Machine Learning,Research
+70,32,Female,USA,Business,3.4308620915380335,1,300,118,0,Medium,"['Canada', 'Singapore']",Machine Learning,Research
+71,32,Female,USA,Humanities,3.8967142898401224,3,322,96,0,High,"['Netherlands', 'Germany', 'Singapore', 'Japan']",Sustainability,Research
+72,27,Female,Germany,Arts,3.071280270055164,0,313,99,1,Medium,['Canada'],Data Science,Research
+73,32,Male,India,Engineering,3.9546600300333075,0,312,103,0,Medium,"['USA', 'Singapore', 'Canada', 'Germany']",Marketing,Research
+74,33,Female,South Korea,Sciences,3.6546930814313483,2,304,101,0,Medium,"['Singapore', 'Netherlands', 'UK']",Business Analytics,Industry
+75,28,Female,Brazil,Engineering,3.3800745089372053,1,316,108,0,High,"['Australia', 'Germany']",Sustainability,Academia
+76,23,Male,India,Arts,3.1971541265728773,0,300,101,0,Low,['Japan'],Data Science,Academia
+77,34,Non-binary,Brazil,Humanities,3.4791832294436,4,340,88,0,High,['France'],Marketing,Academia
+78,21,Male,USA,Humanities,3.194558323185301,1,339,116,0,Medium,['USA'],Business Analytics,Academia
+79,24,Female,Brazil,Sciences,3.166331607743142,3,306,89,0,Medium,"['Japan', 'Canada', 'USA', 'Australia']",Cybersecurity,Industry
+80,22,Female,Brazil,Engineering,3.6173517574129743,3,340,115,0,Low,['Canada'],Marketing,Entrepreneurship
+81,28,Male,India,Humanities,3.5230847245817847,2,303,116,0,High,['UK'],Renewable Energy,Entrepreneurship
+82,24,Non-binary,USA,Arts,3.6700960346109417,1,316,107,0,Medium,"['Singapore', 'UK']",Machine Learning,Industry
+83,22,Female,UK,Business,3.9296058774219893,6,307,107,0,Low,"['USA', 'UK']",Data Science,Industry
+84,34,Female,China,Computer Science,3.53226021333904,0,317,100,1,Medium,"['Japan', 'France', 'Canada', 'UK']",Data Science,Research
+85,26,Female,USA,Computer Science,3.5809320532627975,2,340,103,0,Low,"['Germany', 'Australia', 'Japan']",Data Science,Research
+86,26,Male,China,Computer Science,3.0896263391549423,0,336,119,0,Low,"['Australia', 'Netherlands']",Business Analytics,Research
+87,30,Female,USA,Engineering,3.7176357859086293,1,336,81,0,High,"['UK', 'USA', 'Germany']",Renewable Energy,Academia
+88,24,Non-binary,USA,Sciences,3.3999052068041564,1,293,87,0,Medium,['UK'],Marketing,Research
+89,26,Female,USA,Humanities,3.9767252386625787,5,296,106,0,High,"['Japan', 'Australia']",Machine Learning,Entrepreneurship
+90,33,Female,India,Business,3.82317401559566,5,334,101,0,Medium,"['France', 'UK']",Renewable Energy,Academia
+91,22,Non-binary,Nigeria,Arts,3.5224810405161184,0,324,116,1,High,"['France', 'Australia']",Sustainability,Research
+92,30,Female,India,Business,3.123222654172166,0,337,106,0,Medium,"['Netherlands', 'Australia']",Cybersecurity,Academia
+93,32,Male,India,Arts,3.859415793280589,2,298,108,0,High,['Japan'],Software Engineering,Entrepreneurship
+94,22,Male,India,Engineering,3.799781095424022,1,297,82,0,Low,"['UK', 'Canada', 'Netherlands']",Renewable Energy,Research
+95,30,Male,India,Computer Science,3.184585129537033,0,334,92,1,Medium,['UK'],Sustainability,Entrepreneurship
+96,34,Non-binary,USA,Engineering,3.29527828922031,2,306,89,0,Medium,"['Australia', 'Japan']",Machine Learning,Entrepreneurship
+97,24,Female,Nigeria,Sciences,3.7934072581478375,1,306,115,0,Low,"['France', 'Germany']",Software Engineering,Entrepreneurship
+98,34,Male,Brazil,Sciences,3.1852284465474097,6,338,88,0,High,"['Japan', 'Netherlands', 'Canada']",Software Engineering,Research
+99,28,Non-binary,India,Arts,3.9177524891713773,0,322,106,0,Medium,['UK'],Renewable Energy,Industry
+100,34,Female,Germany,Humanities,3.424527425196362,1,321,113,0,Medium,"['Australia', 'USA', 'Netherlands', 'Canada']",Data Science,Research
+101,27,Non-binary,Brazil,Humanities,3.0870389625876586,1,297,80,0,High,"['Australia', 'Canada']",Finance,Entrepreneurship
+102,32,Male,China,Arts,3.815748643504281,3,308,111,0,Low,"['Japan', 'Singapore', 'Australia', 'USA']",Machine Learning,Research
+103,29,Male,UK,Sciences,3.3735096830383875,1,327,104,0,High,['UK'],Data Science,Entrepreneurship
+104,34,Male,South Korea,Sciences,3.526499194153781,2,292,108,0,High,"['Japan', 'USA']",Machine Learning,Industry
+105,28,Non-binary,India,Sciences,3.112304344411219,0,294,86,0,High,"['Japan', 'Canada', 'Germany']",Finance,Academia
+106,25,Non-binary,China,Engineering,3.0025840148449823,3,302,82,1,Medium,"['USA', 'Australia']",Cybersecurity,Industry
+107,33,Male,UK,Sciences,3.6379852057932975,1,336,99,0,Low,"['USA', 'France', 'UK']",Finance,Industry
+108,22,Non-binary,Brazil,Business,3.5151751703337317,0,335,99,0,Low,"['UK', 'France']",Biomedical Engineering,Academia
+109,25,Male,India,Computer Science,3.5935385691231474,2,320,109,0,High,"['Canada', 'Germany', 'Singapore', 'UK']",Renewable Energy,Research
+110,28,Male,Brazil,Sciences,3.7937438503805163,0,305,114,0,Medium,"['Singapore', 'USA']",Renewable Energy,Academia
+111,30,Female,Germany,Arts,3.64660591342286,0,339,114,1,High,"['France', 'Singapore']",Sustainability,Research
+112,29,Non-binary,Brazil,Computer Science,3.174773442827377,4,321,118,0,Medium,"['Australia', 'Canada']",Data Science,Research
+113,32,Male,Brazil,Engineering,3.3607725191105997,1,311,106,0,Medium,['Singapore'],Sustainability,Entrepreneurship
+114,32,Male,Germany,Arts,3.9058911047877602,2,318,105,0,Medium,['Netherlands'],Biomedical Engineering,Entrepreneurship
+115,32,Non-binary,India,Computer Science,3.769944700251679,0,311,93,0,Medium,"['Germany', 'Netherlands']",Finance,Academia
+116,33,Female,India,Arts,3.556637057936717,3,332,96,0,Low,"['Australia', 'Germany', 'UK']",Renewable Energy,Industry
+117,29,Female,Nigeria,Engineering,3.2556449978092723,0,292,97,0,Medium,['Germany'],Business Analytics,Academia
+118,33,Male,UK,Business,3.302060501834795,1,299,108,0,Medium,"['France', 'Australia', 'Singapore', 'USA']",Finance,Research
+119,33,Non-binary,China,Engineering,3.7319580675856345,6,331,99,1,High,"['France', 'Singapore', 'Japan']",Finance,Entrepreneurship
+120,21,Female,USA,Engineering,3.851174260852771,3,310,106,0,High,"['USA', 'UK', 'Canada']",Biomedical Engineering,Academia
+121,29,Non-binary,Nigeria,Arts,3.6714246695306145,1,305,97,1,Low,"['Australia', 'USA']",Cybersecurity,Academia
+122,27,Non-binary,USA,Humanities,3.8095299757684415,1,301,83,1,High,['Singapore'],Machine Learning,Entrepreneurship
+123,29,Male,Brazil,Sciences,3.7666561352004058,4,291,80,1,Medium,"['France', 'Singapore', 'Australia']",Biomedical Engineering,Entrepreneurship
+124,28,Female,UK,Sciences,3.149703967956958,1,330,80,0,High,['Singapore'],Machine Learning,Entrepreneurship
+125,21,Male,Nigeria,Business,3.423944812913302,3,313,105,0,Low,"['Australia', 'USA']",Renewable Energy,Research
+126,32,Female,USA,Business,3.1529838008285624,3,324,99,1,High,"['USA', 'Germany', 'Canada', 'Netherlands']",Biomedical Engineering,Entrepreneurship
+127,28,Female,China,Sciences,3.235235584801985,0,319,102,0,High,['France'],Machine Learning,Industry
+128,28,Female,USA,Humanities,3.8692596246510527,0,319,89,0,Low,"['UK', 'Australia', 'Netherlands']",Sustainability,Academia
+129,31,Female,China,Sciences,3.472891965633182,2,336,90,1,Low,"['Singapore', 'France', 'Germany']",Biomedical Engineering,Entrepreneurship
+130,23,Female,China,Humanities,3.535358101842661,0,324,120,1,Medium,"['Japan', 'Canada', 'UK']",Renewable Energy,Entrepreneurship
+131,21,Non-binary,USA,Business,3.1784459652277723,0,308,120,0,High,"['Singapore', 'Canada', 'Australia', 'Japan']",Biomedical Engineering,Research
+132,28,Male,India,Computer Science,3.312271786048796,5,339,84,0,Medium,"['Singapore', 'USA', 'Canada']",Renewable Energy,Research
+133,23,Non-binary,India,Arts,3.23024616842787,2,297,80,0,High,"['Germany', 'Singapore', 'Netherlands']",Biomedical Engineering,Academia
+134,23,Female,USA,Business,3.206186164518426,3,315,96,1,High,"['Netherlands', 'Japan', 'Germany']",Machine Learning,Industry
+135,21,Male,China,Business,3.63796079331597,2,338,101,1,Medium,"['Japan', 'Netherlands']",Cybersecurity,Academia
+136,31,Female,China,Engineering,3.2568838476457147,2,329,113,0,High,"['UK', 'Australia']",Marketing,Entrepreneurship
+137,25,Male,Brazil,Engineering,3.6320154860204186,0,296,120,0,High,"['UK', 'Germany', 'France']",Machine Learning,Industry
+138,30,Non-binary,Nigeria,Engineering,3.058454614108554,1,319,108,1,High,"['Germany', 'Japan', 'UK']",Data Science,Industry
+139,27,Male,India,Arts,3.141774393527102,0,296,83,0,Low,['USA'],Software Engineering,Industry
+140,30,Male,Germany,Engineering,3.2745402540001254,1,292,84,0,Medium,"['Netherlands', 'UK']",Cybersecurity,Industry
+141,29,Male,USA,Humanities,3.5970469168956916,3,290,90,1,Low,"['Singapore', 'Germany', 'France', 'Japan']",Sustainability,Academia
+142,32,Male,Brazil,Sciences,3.675841245087376,1,325,100,0,Medium,"['Netherlands', 'Singapore', 'UK', 'Japan']",Finance,Research
+143,27,Male,USA,Computer Science,3.442716966779527,1,314,114,0,Medium,['UK'],Machine Learning,Research
+144,29,Female,South Korea,Business,3.4457909145772287,1,326,91,0,High,"['Germany', 'Canada', 'Singapore', 'France']",Biomedical Engineering,Entrepreneurship
+145,28,Male,Brazil,Humanities,3.724516851398618,0,290,105,0,Medium,"['USA', 'Germany', 'Singapore', 'Japan']",Machine Learning,Research
+146,32,Male,Brazil,Computer Science,3.0158210917655826,1,304,98,1,Low,"['Canada', 'Netherlands', 'France', 'Australia']",Business Analytics,Research
+147,22,Non-binary,Brazil,Humanities,3.3410900244742203,0,326,86,0,Low,"['Netherlands', 'Singapore', 'Japan']",Cybersecurity,Research
+148,21,Male,India,Humanities,3.8187070571192328,0,302,86,1,Low,"['Canada', 'Netherlands', 'Germany', 'Japan']",Marketing,Research
+149,27,Non-binary,India,Business,3.6032194102133723,0,329,105,0,Medium,"['Australia', 'Netherlands']",Sustainability,Entrepreneurship
+150,27,Female,Brazil,Sciences,3.3372271327554204,1,297,119,0,Low,"['Australia', 'Netherlands']",Business Analytics,Academia
+151,34,Male,USA,Engineering,3.9055247923296736,3,294,84,0,Medium,['Australia'],Renewable Energy,Industry
+152,28,Non-binary,Brazil,Arts,3.7726227274493827,0,298,100,0,Low,"['Australia', 'France']",Business Analytics,Research
+153,25,Non-binary,India,Sciences,3.2648954472367335,1,290,93,0,Low,"['Japan', 'UK', 'Netherlands']",Machine Learning,Academia
+154,23,Female,USA,Arts,3.645289837525717,2,325,83,0,Medium,"['Germany', 'Singapore']",Sustainability,Research
+155,32,Male,China,Business,3.595750728188957,0,324,102,0,Low,"['Germany', 'UK']",Machine Learning,Research
+156,28,Male,USA,Business,3.4011879140389825,4,291,99,0,High,"['Singapore', 'France', 'Australia', 'Germany']",Renewable Energy,Industry
+157,26,Non-binary,Nigeria,Business,3.3669560792048006,1,329,94,1,Medium,"['USA', 'Germany', 'Singapore', 'Netherlands']",Finance,Industry
+158,31,Male,USA,Computer Science,3.343560474775704,1,312,108,0,Medium,"['USA', 'Singapore', 'Germany', 'Japan']",Sustainability,Industry
+159,23,Non-binary,USA,Arts,3.617155783395647,2,298,87,1,Medium,"['Australia', 'Singapore', 'Netherlands']",Finance,Research
+160,21,Male,USA,Sciences,3.4424099364806695,0,323,120,0,High,"['Japan', 'Germany', 'Netherlands', 'UK']",Cybersecurity,Research
+161,23,Non-binary,China,Sciences,3.831863113251422,2,335,98,0,Medium,"['Singapore', 'Netherlands', 'USA']",Cybersecurity,Research
+162,25,Male,Brazil,Humanities,3.669602616133962,1,303,118,0,Low,"['France', 'Singapore', 'Japan', 'UK']",Finance,Industry
+163,34,Female,India,Humanities,3.069931605709434,4,293,107,0,Low,"['Canada', 'USA', 'Germany', 'Australia']",Cybersecurity,Entrepreneurship
+164,23,Male,USA,Humanities,3.640168223828166,0,319,106,0,Low,['UK'],Sustainability,Academia
+165,21,Male,USA,Business,3.271147436500185,1,320,83,1,Medium,"['Canada', 'Netherlands', 'UK', 'USA']",Biomedical Engineering,Entrepreneurship
+166,25,Female,Brazil,Sciences,3.5928119916534227,2,327,94,1,Low,"['Singapore', 'France', 'UK']",Data Science,Research
+167,30,Male,USA,Arts,3.6801319311034515,0,300,114,0,Medium,"['France', 'Japan', 'Singapore', 'Germany']",Cybersecurity,Research
+168,27,Female,Germany,Business,3.230829189154012,1,324,116,0,Low,"['Singapore', 'Australia', 'Japan']",Cybersecurity,Entrepreneurship
+169,34,Male,South Korea,Computer Science,3.4568586448803686,2,297,80,1,High,['Netherlands'],Machine Learning,Research
+170,27,Non-binary,China,Humanities,3.1903248628190677,3,292,82,0,High,['Japan'],Finance,Academia
+171,31,Non-binary,India,Business,3.0523388757865084,1,303,103,1,High,['France'],Software Engineering,Research
+172,29,Male,China,Business,3.378476423485869,3,302,106,1,High,"['UK', 'USA']",Marketing,Academia
+173,30,Male,China,Computer Science,3.362944271845992,5,334,119,1,Medium,['Germany'],Business Analytics,Entrepreneurship
+174,30,Male,Nigeria,Engineering,3.995480490704257,4,321,115,0,Low,"['USA', 'Canada']",Cybersecurity,Entrepreneurship
+175,32,Non-binary,UK,Sciences,3.446352351197642,0,323,113,0,High,"['Canada', 'Netherlands']",Business Analytics,Research
+176,33,Male,India,Arts,3.3335695494722004,2,334,108,0,Medium,['Germany'],Sustainability,Academia
+177,23,Non-binary,India,Engineering,3.5804750067166746,1,308,103,0,High,"['Australia', 'France', 'UK', 'Japan']",Software Engineering,Research
+178,27,Female,China,Humanities,3.0887673941077685,6,327,103,1,High,['Canada'],Marketing,Industry
+179,21,Non-binary,Brazil,Business,3.961665735954813,1,305,83,0,Medium,"['UK', 'USA', 'Canada']",Finance,Industry
+180,24,Non-binary,USA,Computer Science,3.634960045591033,0,291,82,0,Medium,"['Singapore', 'Germany', 'USA', 'Australia']",Data Science,Industry
+181,33,Female,India,Computer Science,3.754837819940848,2,329,113,1,Low,"['UK', 'Australia']",Marketing,Industry
+182,24,Non-binary,UK,Sciences,3.1704779381739177,1,306,102,1,Low,['USA'],Marketing,Research
+183,34,Male,Brazil,Engineering,3.409477853005204,6,323,102,1,High,"['Japan', 'Singapore', 'France']",Data Science,Industry
+184,25,Male,India,Sciences,3.4226891133961894,6,331,84,1,High,"['UK', 'France', 'USA']",Biomedical Engineering,Academia
+185,27,Non-binary,Nigeria,Business,3.821806443901087,2,305,110,0,Low,"['Netherlands', 'UK', 'Germany', 'Canada']",Finance,Entrepreneurship
+186,27,Male,Brazil,Sciences,3.001236679759409,0,327,120,0,Low,"['Canada', 'Singapore', 'UK', 'France']",Machine Learning,Entrepreneurship
+187,33,Non-binary,China,Arts,3.3008531083532553,2,291,85,1,Medium,"['Japan', 'Netherlands', 'Germany']",Business Analytics,Industry
+188,31,Male,India,Computer Science,3.981236374344304,0,291,116,0,Low,"['Australia', 'France', 'Singapore', 'UK']",Cybersecurity,Industry
+189,33,Male,India,Computer Science,3.4748865435062184,0,315,89,0,Low,['Australia'],Marketing,Industry
+190,24,Non-binary,India,Humanities,3.3825262802440084,3,302,119,0,High,"['Germany', 'Netherlands', 'Australia', 'Singapore']",Sustainability,Research
+191,33,Male,Germany,Humanities,3.1198290020176462,0,336,86,0,Low,"['France', 'USA', 'Germany', 'Canada']",Data Science,Entrepreneurship
+192,27,Non-binary,UK,Business,3.9741646286280154,1,320,118,1,High,"['Netherlands', 'Germany']",Business Analytics,Industry
+193,31,Male,India,Arts,3.0200263559258245,6,323,117,0,Low,"['Australia', 'France', 'Canada']",Software Engineering,Academia
+194,23,Male,India,Engineering,3.737180225007243,1,328,100,0,Medium,"['Japan', 'USA', 'Australia']",Data Science,Industry
+195,26,Female,India,Sciences,3.7685998047885083,0,292,99,0,Low,"['UK', 'Germany']",Software Engineering,Entrepreneurship
+196,32,Female,India,Business,3.2436567160638665,4,297,82,0,Low,"['Netherlands', 'Germany', 'France', 'Japan']",Finance,Industry
+197,22,Non-binary,Germany,Humanities,3.671558443613037,0,312,101,0,Low,"['Netherlands', 'USA', 'Japan', 'Canada']",Marketing,Entrepreneurship
+198,30,Female,China,Sciences,3.09292914437939,3,303,83,0,High,"['Singapore', 'Germany']",Sustainability,Industry
+199,33,Non-binary,China,Humanities,3.25704726643208,6,316,107,1,Medium,"['France', 'Netherlands', 'Australia']",Cybersecurity,Academia
+200,34,Female,India,Sciences,3.787901988292265,4,318,91,0,Low,"['Singapore', 'France', 'Canada']",Software Engineering,Industry
+201,29,Male,Nigeria,Engineering,3.86468619203354,2,328,117,0,High,"['Australia', 'Japan', 'Canada', 'UK']",Business Analytics,Academia
+202,25,Non-binary,China,Business,3.6084864126597913,1,328,115,0,Medium,['Germany'],Biomedical Engineering,Academia
+203,26,Non-binary,Brazil,Sciences,3.5068384318204826,0,290,120,0,High,"['UK', 'Canada', 'Japan']",Finance,Industry
+204,32,Male,India,Arts,3.1593040206189804,3,306,84,0,High,"['Netherlands', 'Australia']",Biomedical Engineering,Academia
+205,32,Non-binary,Brazil,Computer Science,3.06310903307915,4,330,92,1,Medium,"['UK', 'Germany', 'Canada']",Finance,Research
+206,32,Non-binary,Nigeria,Arts,3.1176490284735587,1,319,102,0,Low,"['France', 'Canada']",Machine Learning,Industry
+207,32,Female,India,Arts,3.2273573000960987,0,302,109,1,High,"['USA', 'Canada', 'Netherlands']",Business Analytics,Industry
+208,24,Non-binary,China,Computer Science,3.3416745018969207,0,310,116,0,High,['USA'],Biomedical Engineering,Academia
+209,34,Male,Germany,Arts,3.380909525510987,0,308,104,0,Low,"['Canada', 'Netherlands', 'USA']",Sustainability,Academia
+210,34,Female,UK,Sciences,3.3463217685890037,2,308,106,0,Low,['Australia'],Marketing,Industry
+211,31,Female,USA,Sciences,3.2390553321972657,1,314,93,1,Medium,"['Netherlands', 'Japan', 'Canada', 'UK']",Data Science,Research
+212,30,Male,USA,Sciences,3.509724246751698,4,311,115,0,Medium,['Australia'],Cybersecurity,Academia
+213,27,Male,UK,Computer Science,3.8252861082328966,2,320,118,0,Medium,"['UK', 'Japan', 'Germany', 'Singapore']",Marketing,Academia
+214,32,Female,USA,Arts,3.2797035384714794,0,306,95,0,Low,['USA'],Marketing,Entrepreneurship
+215,29,Non-binary,India,Computer Science,3.942387019102233,2,312,101,0,High,"['Canada', 'Australia']",Finance,Research
+216,27,Female,UK,Sciences,3.873336661723848,1,321,100,0,High,['Germany'],Sustainability,Research
+217,34,Male,India,Arts,3.16176421135211,2,299,100,0,Medium,['Japan'],Finance,Industry
+218,21,Female,USA,Arts,3.7862759567570947,2,299,87,0,Low,"['Germany', 'Singapore', 'Japan', 'Netherlands']",Renewable Energy,Research
+219,21,Male,India,Humanities,3.5745873823177665,3,325,95,0,High,"['Singapore', 'Australia', 'Netherlands']",Software Engineering,Industry
+220,29,Female,India,Humanities,3.5665753621714185,3,297,110,0,Medium,['UK'],Cybersecurity,Entrepreneurship
+221,31,Non-binary,China,Engineering,3.3910427630581745,0,309,89,1,High,"['Germany', 'Australia']",Software Engineering,Research
+222,34,Female,Brazil,Business,3.50115299918201,0,321,111,1,High,['Canada'],Data Science,Academia
+223,29,Female,China,Humanities,3.397178777429211,2,339,113,1,Low,"['Canada', 'UK']",Renewable Energy,Entrepreneurship
+224,24,Male,India,Computer Science,3.5397326187599427,0,303,88,0,Low,"['USA', 'Singapore']",Business Analytics,Industry
+225,33,Male,India,Humanities,3.627950052772636,1,339,96,0,High,"['Netherlands', 'Australia', 'USA', 'UK']",Data Science,Entrepreneurship
+226,29,Male,USA,Engineering,3.6743038064090485,0,317,90,0,Medium,"['Australia', 'Netherlands', 'USA']",Data Science,Industry
+227,23,Female,South Korea,Arts,3.532481192559426,2,335,111,0,Low,"['Australia', 'Germany']",Machine Learning,Entrepreneurship
+228,27,Non-binary,USA,Engineering,3.7214220673287315,0,313,89,0,High,"['UK', 'Germany', 'France', 'Japan']",Cybersecurity,Industry
+229,26,Male,USA,Arts,3.1412780492755057,2,304,101,0,Low,"['Canada', 'UK', 'USA']",Finance,Research
+230,28,Male,Germany,Arts,3.2119824909022388,6,311,96,0,Low,"['Australia', 'Japan']",Sustainability,Academia
+231,31,Female,USA,Business,3.81873500407427,0,319,83,0,Low,"['UK', 'Netherlands', 'France', 'Canada']",Software Engineering,Industry
+232,29,Male,India,Humanities,3.3225279778464154,0,293,104,1,High,"['Australia', 'Netherlands', 'Germany', 'USA']",Data Science,Entrepreneurship
+233,34,Non-binary,China,Computer Science,3.02289382497612,1,302,100,0,Medium,['Singapore'],Software Engineering,Industry
+234,25,Non-binary,China,Computer Science,3.153791149668031,4,312,116,0,Medium,"['Australia', 'USA', 'Netherlands']",Software Engineering,Industry
+235,21,Male,China,Sciences,3.2236144344963114,0,297,117,0,Medium,"['USA', 'Australia']",Business Analytics,Industry
+236,23,Male,China,Arts,3.957322887894587,1,307,80,0,Low,['Canada'],Cybersecurity,Entrepreneurship
+237,30,Female,Brazil,Computer Science,3.5730414289308494,0,301,104,0,High,"['Japan', 'Netherlands', 'Canada', 'UK']",Cybersecurity,Academia
+238,32,Non-binary,China,Business,3.932730740476255,3,320,115,1,Low,"['Netherlands', 'UK', 'Germany', 'Canada']",Biomedical Engineering,Research
+239,28,Non-binary,USA,Arts,3.575163350496625,1,303,96,1,Medium,"['France', 'Japan', 'Netherlands', 'USA']",Marketing,Academia
+240,31,Male,Nigeria,Business,3.479354440137852,3,323,120,0,Medium,"['France', 'Singapore']",Cybersecurity,Industry
+241,26,Female,China,Computer Science,3.313727691194096,4,307,103,1,High,"['Australia', 'Singapore', 'Netherlands', 'Japan']",Software Engineering,Entrepreneurship
+242,28,Non-binary,Germany,Computer Science,3.6063709444333756,0,323,81,1,Low,['Netherlands'],Finance,Academia
+243,29,Non-binary,USA,Sciences,3.1391980246175297,3,300,119,1,Medium,['France'],Software Engineering,Industry
+244,24,Female,China,Computer Science,3.898261627292706,0,330,94,1,High,"['France', 'UK', 'Singapore']",Finance,Research
+245,21,Female,Brazil,Arts,3.8293324051412836,4,301,111,0,Low,"['Japan', 'USA', 'France', 'Australia']",Biomedical Engineering,Research
+246,34,Non-binary,USA,Arts,3.3175314478767373,2,338,118,0,Low,"['Singapore', 'USA', 'UK', 'Australia']",Finance,Research
+247,21,Non-binary,USA,Arts,3.9527975276012945,4,304,85,0,Medium,"['Netherlands', 'Japan', 'Singapore']",Cybersecurity,Industry
+248,30,Female,USA,Sciences,3.825200767415568,0,320,80,0,Medium,['Germany'],Business Analytics,Entrepreneurship
+249,24,Non-binary,USA,Sciences,3.6663068858350396,0,338,102,1,Low,"['Japan', 'Canada', 'Netherlands']",Finance,Academia
+250,32,Male,Brazil,Computer Science,3.121761911125275,1,318,118,0,Low,"['Netherlands', 'UK', 'USA', 'France']",Software Engineering,Research
+251,34,Male,India,Engineering,3.4782340230480724,1,315,96,1,Medium,"['Canada', 'Australia']",Sustainability,Industry
+252,27,Female,China,Engineering,3.506107554846751,0,307,113,1,Low,['Japan'],Cybersecurity,Industry
+253,22,Female,India,Sciences,3.23255135836538,1,321,120,1,Medium,"['UK', 'Germany', 'Singapore', 'USA']",Sustainability,Academia
+254,23,Female,Brazil,Computer Science,3.079965394359302,0,311,108,1,Low,"['UK', 'Canada', 'Germany', 'France']",Renewable Energy,Research
+255,21,Male,China,Engineering,3.7767236304716927,1,327,88,0,Medium,"['Japan', 'Australia', 'Germany']",Renewable Energy,Industry
+256,25,Non-binary,UK,Computer Science,3.122035052124395,3,306,92,0,High,"['Netherlands', 'Germany', 'Japan', 'Australia']",Software Engineering,Academia
+257,21,Male,USA,Computer Science,3.5942907505617745,1,312,85,0,Medium,"['Singapore', 'Germany']",Renewable Energy,Entrepreneurship
+258,28,Non-binary,Germany,Computer Science,3.9364491738836604,0,313,85,0,Medium,"['UK', 'Australia']",Marketing,Entrepreneurship
+259,21,Male,South Korea,Humanities,3.8761051925980423,1,339,99,0,High,"['France', 'Australia', 'Singapore', 'USA']",Biomedical Engineering,Entrepreneurship
+260,31,Non-binary,Germany,Arts,3.277752623749261,0,297,82,0,Low,"['Australia', 'Netherlands', 'Singapore']",Cybersecurity,Research
+261,21,Male,Germany,Computer Science,3.8514486375512655,5,330,96,1,High,"['Netherlands', 'Japan']",Sustainability,Academia
+262,22,Female,China,Humanities,3.0003325061204893,0,295,91,0,Medium,"['France', 'Singapore', 'Germany']",Software Engineering,Academia
+263,22,Male,USA,Sciences,3.0176878096132573,2,294,80,0,Low,"['Germany', 'Japan', 'Australia']",Marketing,Industry
+264,32,Non-binary,China,Engineering,3.602553163842865,6,333,96,0,High,"['Germany', 'Singapore', 'USA', 'Canada']",Software Engineering,Industry
+265,26,Male,India,Arts,3.3647982191445296,3,318,82,0,Low,"['Singapore', 'Japan', 'France', 'Netherlands']",Marketing,Industry
+266,27,Male,USA,Engineering,3.3864608411591473,2,317,105,0,Low,"['Netherlands', 'USA']",Renewable Energy,Academia
+267,25,Male,USA,Arts,3.5644410906788826,3,300,94,1,High,"['Japan', 'France']",Renewable Energy,Industry
+268,21,Female,China,Engineering,3.1917824555918606,6,290,115,0,Low,['Netherlands'],Finance,Academia
+269,21,Male,USA,Arts,3.211755350665478,2,332,111,1,High,['Japan'],Machine Learning,Academia
+270,23,Female,UK,Engineering,3.4846015870188647,2,308,111,0,Medium,"['USA', 'Canada', 'Germany', 'France']",Software Engineering,Entrepreneurship
+271,34,Female,USA,Engineering,3.754253544343863,2,298,83,1,Low,"['UK', 'Netherlands']",Finance,Industry
+272,22,Male,Brazil,Engineering,3.6194977514075877,1,316,97,0,Medium,"['France', 'Singapore', 'Japan']",Cybersecurity,Entrepreneurship
+273,25,Male,Germany,Engineering,3.297355048236839,2,323,98,0,Medium,['France'],Finance,Research
+274,32,Male,South Korea,Sciences,3.430337177508921,1,333,114,0,Low,"['France', 'Netherlands', 'Singapore', 'Australia']",Data Science,Research
+275,30,Non-binary,Nigeria,Computer Science,3.1706647585499983,0,293,119,1,High,['UK'],Renewable Energy,Research
+276,26,Male,Germany,Business,3.0746298143370816,0,325,93,0,Low,"['Australia', 'Germany']",Data Science,Academia
+277,27,Female,South Korea,Humanities,3.782696040744149,0,307,112,0,Medium,['Singapore'],Software Engineering,Academia
+278,24,Male,UK,Business,3.2653874091881945,0,304,93,1,Medium,['UK'],Sustainability,Academia
+279,27,Non-binary,India,Business,3.177766387851248,0,340,113,1,High,"['Canada', 'Australia', 'USA', 'Singapore']",Sustainability,Industry
+280,31,Male,China,Arts,3.6916180555693194,2,302,83,0,Low,"['USA', 'Australia', 'Canada']",Cybersecurity,Entrepreneurship
+281,28,Non-binary,China,Computer Science,3.618051674287186,0,308,103,1,Medium,"['Singapore', 'Canada', 'UK']",Finance,Academia
+282,31,Non-binary,India,Arts,3.633189626013464,3,338,108,0,Medium,"['Canada', 'Japan', 'UK', 'USA']",Sustainability,Entrepreneurship
+283,21,Male,Nigeria,Computer Science,3.2288946048466136,0,295,98,0,Medium,"['Germany', 'Netherlands', 'Australia', 'UK']",Marketing,Entrepreneurship
+284,26,Female,Brazil,Computer Science,3.232645538562681,0,337,85,0,High,"['Netherlands', 'Australia']",Marketing,Entrepreneurship
+285,28,Non-binary,Germany,Engineering,3.220802629785639,2,301,112,1,Medium,"['Australia', 'USA', 'Singapore', 'Germany']",Cybersecurity,Industry
+286,25,Male,India,Sciences,3.1737525956622945,2,340,119,1,Medium,"['Japan', 'Canada', 'USA']",Biomedical Engineering,Industry
+287,24,Male,Germany,Engineering,3.655723672561656,0,326,98,0,Low,"['France', 'Australia', 'Japan', 'Germany']",Renewable Energy,Research
+288,22,Female,Nigeria,Sciences,3.8480158852494015,4,306,80,0,Low,"['Netherlands', 'Australia', 'UK']",Finance,Research
+289,26,Non-binary,Brazil,Arts,3.724317469676661,4,312,84,0,Medium,"['Netherlands', 'UK', 'Japan', 'Germany']",Software Engineering,Entrepreneurship
+290,26,Non-binary,UK,Sciences,3.792093633760543,1,315,106,1,Medium,"['Australia', 'Japan', 'USA']",Business Analytics,Research
+291,31,Male,Nigeria,Arts,3.4047984290852,1,318,95,1,Low,"['Australia', 'USA', 'Japan', 'France']",Business Analytics,Entrepreneurship
+292,21,Male,China,Business,3.6540757953719982,6,322,85,0,High,['Netherlands'],Business Analytics,Industry
+293,29,Female,Germany,Business,3.3542362404447745,2,316,119,1,High,"['Germany', 'France', 'UK']",Sustainability,Industry
+294,32,Female,China,Sciences,3.52550462196864,1,314,92,1,High,"['Australia', 'Canada']",Biomedical Engineering,Industry
+295,31,Non-binary,India,Sciences,3.4816348465348623,3,299,114,0,High,['USA'],Biomedical Engineering,Academia
+296,26,Non-binary,Germany,Arts,3.1768871451438545,0,336,98,0,High,"['Netherlands', 'USA', 'Australia']",Finance,Entrepreneurship
+297,33,Male,China,Engineering,3.3870787603356307,1,312,91,0,High,"['Canada', 'UK', 'Japan']",Finance,Industry
+298,23,Non-binary,Brazil,Arts,3.963822275482351,0,310,95,0,High,"['Singapore', 'Canada', 'UK']",Biomedical Engineering,Entrepreneurship
+299,24,Female,China,Engineering,3.2485802577149423,3,310,89,0,High,"['Japan', 'France']",Cybersecurity,Research
+300,32,Female,Germany,Business,3.133803736279489,2,332,104,0,Low,"['Canada', 'Australia', 'Singapore']",Finance,Research
+301,31,Male,India,Computer Science,3.4185806216239354,2,302,99,1,High,"['Australia', 'France', 'Singapore', 'USA']",Cybersecurity,Industry
+302,24,Female,South Korea,Sciences,3.790337735860148,0,326,110,0,High,"['UK', 'Canada', 'Singapore', 'Japan']",Data Science,Entrepreneurship
+303,23,Female,Brazil,Engineering,3.582148229779972,0,322,83,0,High,"['Japan', 'France', 'USA', 'Germany']",Marketing,Industry
+304,30,Female,India,Arts,3.6809748272382445,1,313,102,0,Medium,['Australia'],Renewable Energy,Research
+305,23,Female,USA,Business,3.1896948481746774,2,333,81,0,Low,['Netherlands'],Finance,Industry
+306,23,Male,South Korea,Engineering,3.6189481930077214,1,300,101,0,Low,"['Australia', 'Singapore', 'Netherlands']",Biomedical Engineering,Entrepreneurship
+307,24,Male,USA,Arts,3.323500394911474,0,306,116,0,Low,"['UK', 'Germany', 'Netherlands']",Marketing,Research
+308,27,Non-binary,India,Sciences,3.8343033659547676,4,293,87,0,High,['Japan'],Marketing,Academia
+309,24,Female,USA,Sciences,3.6292988060107363,0,336,86,0,High,"['Germany', 'UK', 'France']",Machine Learning,Research
+310,29,Non-binary,USA,Humanities,3.198856277775296,5,314,93,0,Medium,"['Australia', 'Singapore', 'USA', 'UK']",Biomedical Engineering,Academia
+311,21,Male,Brazil,Computer Science,3.064616679844086,0,319,82,0,Low,['USA'],Renewable Energy,Industry
+312,28,Male,Nigeria,Humanities,3.0426332092870325,2,298,95,1,High,"['Netherlands', 'UK', 'USA']",Biomedical Engineering,Industry
+313,27,Male,China,Business,3.371408567650141,0,310,98,0,Low,"['Japan', 'Canada']",Finance,Entrepreneurship
+314,22,Male,India,Engineering,3.2658511366543133,4,309,97,0,Medium,"['Netherlands', 'France', 'Japan', 'Singapore']",Software Engineering,Academia
+315,28,Male,Nigeria,Business,3.646090123462508,1,308,95,1,Medium,"['Canada', 'Singapore', 'France', 'USA']",Data Science,Industry
+316,21,Male,China,Arts,3.4993338349786183,0,308,87,0,Medium,"['Singapore', 'Australia', 'USA', 'France']",Cybersecurity,Academia
+317,31,Male,India,Sciences,3.2660192780053805,1,301,112,0,Low,"['Germany', 'Netherlands', 'Japan']",Software Engineering,Industry
+318,32,Female,UK,Humanities,3.149237777950176,0,326,91,1,High,"['France', 'UK']",Data Science,Research
+319,29,Non-binary,Nigeria,Humanities,3.1271997626874497,0,331,90,0,High,"['Japan', 'France', 'USA']",Software Engineering,Industry
+320,29,Male,Nigeria,Humanities,3.8646603921404177,5,306,84,0,Medium,"['Australia', 'Germany', 'USA', 'Netherlands']",Cybersecurity,Entrepreneurship
+321,22,Female,Germany,Business,3.2434779684048674,1,326,106,1,High,['Germany'],Sustainability,Research
+322,27,Female,USA,Sciences,3.6517106479109684,3,337,91,1,Medium,['USA'],Biomedical Engineering,Entrepreneurship
+323,34,Non-binary,Germany,Engineering,3.8106859279862664,2,328,96,1,Low,"['Germany', 'Canada', 'Singapore']",Software Engineering,Research
+324,30,Male,USA,Arts,3.6140813111847363,2,317,85,0,Medium,"['UK', 'Germany']",Finance,Academia
+325,23,Non-binary,India,Engineering,3.859565231646946,0,330,112,0,Low,"['Germany', 'France']",Renewable Energy,Entrepreneurship
+326,27,Male,China,Business,3.3923937215284745,0,324,84,0,Medium,"['USA', 'Australia']",Business Analytics,Industry
+327,32,Female,USA,Arts,3.9562221906489485,3,336,107,0,High,"['Canada', 'Australia']",Finance,Academia
+328,30,Female,Brazil,Humanities,3.133145004178097,6,337,93,0,High,"['UK', 'USA']",Cybersecurity,Industry
+329,29,Female,India,Computer Science,3.102149529657538,0,307,84,0,Medium,"['USA', 'France']",Renewable Energy,Research
+330,24,Female,India,Business,3.6586921462074438,0,303,112,1,High,"['France', 'USA']",Finance,Research
+331,32,Non-binary,China,Business,3.9428311414132615,1,324,120,0,High,"['Australia', 'USA']",Marketing,Industry
+332,21,Male,China,Sciences,3.808883461636328,6,333,98,0,High,"['Singapore', 'UK']",Biomedical Engineering,Industry
+333,22,Male,Brazil,Engineering,3.0764168594380514,0,330,101,0,Low,['Netherlands'],Renewable Energy,Academia
+334,21,Non-binary,China,Business,3.2793677139347164,1,296,84,0,High,"['France', 'UK', 'Germany', 'Australia']",Marketing,Industry
+335,34,Male,Nigeria,Business,3.9303188848378237,4,330,81,0,Low,"['USA', 'Australia']",Finance,Entrepreneurship
+336,32,Female,USA,Humanities,3.2530584328007848,0,302,109,0,Medium,"['USA', 'Japan', 'Germany', 'Singapore']",Data Science,Entrepreneurship
+337,25,Male,USA,Humanities,3.7811704237869193,0,307,118,0,High,"['UK', 'Netherlands', 'France', 'Germany']",Machine Learning,Industry
+338,25,Female,Germany,Arts,3.825132195928704,2,326,83,0,High,['UK'],Data Science,Entrepreneurship
+339,31,Non-binary,China,Computer Science,3.495452103460982,4,302,112,1,High,"['Canada', 'UK', 'Netherlands']",Biomedical Engineering,Industry
+340,27,Male,Brazil,Sciences,3.3863489098483157,0,325,92,1,Medium,"['Japan', 'France', 'Germany']",Renewable Energy,Academia
+341,29,Non-binary,China,Computer Science,3.4501244324197597,1,320,99,0,Low,"['Netherlands', 'Singapore', 'USA']",Renewable Energy,Entrepreneurship
+342,29,Male,China,Arts,3.226964694365364,1,291,86,0,Low,['Japan'],Biomedical Engineering,Entrepreneurship
+343,23,Female,South Korea,Humanities,3.8893909161288445,1,305,94,1,High,"['Singapore', 'Netherlands']",Marketing,Industry
+344,23,Non-binary,India,Engineering,3.450619656729758,2,298,102,1,Medium,"['Singapore', 'France']",Machine Learning,Entrepreneurship
+345,23,Male,India,Humanities,3.8824594404561,1,298,93,0,Medium,"['Singapore', 'Japan', 'France', 'USA']",Finance,Research
+346,24,Female,Brazil,Sciences,3.1056934799062743,1,327,102,1,Medium,"['Singapore', 'France', 'Netherlands']",Cybersecurity,Academia
+347,28,Non-binary,India,Humanities,3.9882752710001315,1,300,98,0,Medium,"['France', 'Canada', 'Japan']",Data Science,Academia
+348,26,Non-binary,Germany,Sciences,3.443273087443618,2,311,108,1,Medium,"['UK', 'Japan', 'Singapore', 'USA']",Data Science,Entrepreneurship
+349,28,Male,China,Sciences,3.0478308203941054,1,322,99,1,Low,['Singapore'],Business Analytics,Entrepreneurship
+350,21,Male,UK,Sciences,3.038021848237455,4,325,108,0,Low,['France'],Machine Learning,Research
+351,28,Male,Brazil,Arts,3.7462072574818386,0,334,103,1,Low,"['Japan', 'USA']",Cybersecurity,Research
+352,24,Female,Nigeria,Sciences,3.6590355342036807,3,312,97,0,High,"['UK', 'Singapore', 'Canada']",Data Science,Entrepreneurship
+353,31,Male,UK,Sciences,3.8021305581275877,3,334,89,1,Medium,"['USA', 'Australia', 'Netherlands', 'Canada']",Cybersecurity,Entrepreneurship
+354,21,Non-binary,China,Engineering,3.1053675339528057,0,334,120,0,High,"['UK', 'Germany', 'Japan']",Finance,Research
+355,28,Non-binary,South Korea,Computer Science,3.035570867035548,1,323,87,1,Medium,"['Germany', 'UK', 'Canada', 'Australia']",Renewable Energy,Industry
+356,24,Male,India,Business,3.5085792894475785,1,298,105,0,Low,"['UK', 'Australia', 'Netherlands']",Cybersecurity,Research
+357,26,Male,USA,Computer Science,3.3875952314827695,0,313,108,0,High,"['Singapore', 'USA']",Data Science,Industry
+358,28,Non-binary,China,Sciences,3.4619469366709557,1,297,89,0,Low,"['USA', 'Canada', 'Netherlands']",Marketing,Academia
+359,24,Female,USA,Engineering,3.9915884088702738,0,296,96,1,Medium,"['France', 'Japan', 'USA']",Machine Learning,Academia
+360,34,Male,India,Humanities,3.9707499576706704,0,325,81,1,Medium,"['Canada', 'Singapore']",Biomedical Engineering,Research
+361,23,Male,Germany,Engineering,3.942315389673193,3,307,85,1,Medium,['Canada'],Software Engineering,Industry
+362,34,Non-binary,Germany,Sciences,3.783842676767674,0,292,84,1,Low,['UK'],Sustainability,Research
+363,29,Male,South Korea,Engineering,3.3548413602568905,3,317,107,0,Medium,"['Singapore', 'Japan']",Sustainability,Research
+364,23,Female,India,Engineering,3.4121309302627716,1,295,120,0,Low,"['France', 'Canada', 'Netherlands', 'Singapore']",Software Engineering,Industry
+365,29,Non-binary,Nigeria,Sciences,3.5496160437189244,4,333,84,0,High,"['UK', 'USA', 'Japan']",Cybersecurity,Research
+366,33,Male,USA,Arts,3.83053445640484,2,333,97,0,Medium,"['USA', 'UK']",Machine Learning,Academia
+367,22,Non-binary,China,Engineering,3.0687128325182678,0,310,105,0,Medium,"['Netherlands', 'Singapore', 'Germany']",Cybersecurity,Entrepreneurship
+368,34,Male,China,Business,3.424296885884888,2,317,99,0,Medium,"['Singapore', 'Australia', 'UK', 'Netherlands']",Biomedical Engineering,Entrepreneurship
+369,22,Male,China,Business,3.082617663459269,0,329,120,0,High,['France'],Machine Learning,Research
+370,22,Male,Brazil,Engineering,3.5146575865735117,1,290,106,0,Medium,"['UK', 'Australia', 'France', 'Singapore']",Software Engineering,Industry
+371,26,Female,USA,Arts,3.8989008240062355,5,325,91,0,Low,"['Japan', 'Australia', 'USA', 'UK']",Cybersecurity,Industry
+372,23,Female,USA,Humanities,3.782484924563938,0,310,86,0,Low,"['USA', 'Japan', 'UK', 'Canada']",Business Analytics,Academia
+373,33,Non-binary,India,Sciences,3.22784241754311,1,332,82,1,Medium,"['Canada', 'Australia']",Data Science,Industry
+374,29,Male,India,Business,3.9759908495987926,2,324,89,1,Medium,"['France', 'UK', 'USA']",Marketing,Industry
+375,24,Male,India,Humanities,3.6673503980464286,4,302,113,1,High,"['Singapore', 'Canada', 'UK', 'Germany']",Renewable Energy,Academia
+376,21,Female,South Korea,Engineering,3.010427699397403,2,338,104,0,High,"['Japan', 'France']",Marketing,Research
+377,24,Male,India,Humanities,3.2554134846852194,0,299,114,0,High,['Singapore'],Biomedical Engineering,Entrepreneurship
+378,21,Female,India,Computer Science,3.2607132999199164,2,333,95,1,Medium,['Singapore'],Cybersecurity,Academia
+379,34,Male,China,Business,3.0692543062858597,0,336,81,0,High,['Netherlands'],Finance,Research
+380,25,Non-binary,Germany,Engineering,3.959826518075929,2,299,103,0,High,['France'],Machine Learning,Academia
+381,24,Male,South Korea,Sciences,3.4782552945759235,5,335,89,0,Low,"['Singapore', 'Japan', 'Canada', 'USA']",Cybersecurity,Research
+382,28,Male,Brazil,Arts,3.895814597371882,2,302,117,0,High,"['USA', 'France', 'UK', 'Australia']",Machine Learning,Academia
+383,28,Female,Nigeria,Engineering,3.322215503444628,4,326,101,0,Low,"['France', 'UK', 'Germany', 'USA']",Renewable Energy,Research
+384,27,Male,USA,Sciences,3.125233570432827,0,327,105,0,Low,"['Singapore', 'Japan']",Business Analytics,Academia
+385,23,Male,India,Arts,3.474336109906214,2,313,118,0,High,['Singapore'],Marketing,Research
+386,21,Female,South Korea,Arts,3.113956634714317,3,291,106,0,Low,"['France', 'Germany', 'Canada']",Data Science,Academia
+387,21,Non-binary,Brazil,Engineering,3.4860155029775397,0,311,108,0,Medium,"['UK', 'Japan']",Renewable Energy,Entrepreneurship
+388,32,Non-binary,Nigeria,Humanities,3.9202971812194076,4,306,117,1,Medium,"['France', 'Japan']",Renewable Energy,Entrepreneurship
+389,31,Female,Brazil,Humanities,3.5207681418342127,0,325,99,0,High,"['Germany', 'UK']",Marketing,Industry
+390,23,Female,Brazil,Arts,3.6164997268950834,2,303,106,0,Medium,"['Australia', 'Germany']",Renewable Energy,Research
+391,26,Female,Nigeria,Humanities,3.1566384369738083,3,299,120,1,Low,"['Canada', 'UK']",Finance,Academia
+392,27,Female,South Korea,Computer Science,3.0437356258799695,2,324,99,0,Medium,"['Netherlands', 'Japan']",Finance,Research
+393,26,Female,UK,Arts,3.1108079621798073,0,314,98,0,High,"['France', 'Japan', 'UK', 'Germany']",Sustainability,Entrepreneurship
+394,34,Non-binary,Nigeria,Arts,3.5985315756843654,2,292,99,0,High,['Netherlands'],Sustainability,Research
+395,34,Non-binary,Nigeria,Sciences,3.0950116989923044,1,336,114,0,Low,"['Australia', 'Japan', 'Netherlands', 'USA']",Finance,Academia
+396,26,Female,India,Humanities,3.3759928899413114,4,327,81,0,High,"['Japan', 'UK', 'Canada']",Software Engineering,Research
+397,26,Male,Nigeria,Arts,3.550091940458156,1,306,109,1,Medium,"['Netherlands', 'USA', 'Japan', 'Canada']",Business Analytics,Academia
+398,33,Female,India,Computer Science,3.388652798629847,1,301,113,0,High,"['UK', 'Japan', 'Australia']",Machine Learning,Entrepreneurship
+399,23,Male,USA,Sciences,3.1636838014653015,2,313,101,0,Low,"['Netherlands', 'USA', 'Germany', 'Australia']",Business Analytics,Entrepreneurship
+400,26,Female,South Korea,Engineering,3.2737913075141067,1,318,82,0,High,"['France', 'Netherlands']",Biomedical Engineering,Entrepreneurship
+401,28,Female,USA,Arts,3.928317532848577,2,332,85,0,Medium,"['USA', 'Netherlands']",Renewable Energy,Industry
+402,31,Non-binary,USA,Computer Science,3.6759822755863554,2,314,94,0,Low,['France'],Data Science,Entrepreneurship
+403,31,Male,China,Business,3.4960478386798863,4,325,106,0,Medium,['Japan'],Renewable Energy,Research
+404,22,Male,India,Computer Science,3.0127148899868934,2,315,89,0,Low,"['USA', 'Germany']",Business Analytics,Industry
+405,25,Non-binary,Brazil,Computer Science,3.9924154004894703,1,327,88,0,High,"['Netherlands', 'Canada', 'Japan', 'Singapore']",Finance,Entrepreneurship
+406,34,Non-binary,India,Sciences,3.6714549348946433,0,290,112,0,Low,"['Singapore', 'Japan', 'Netherlands']",Marketing,Research
+407,21,Non-binary,India,Engineering,3.316922477344945,0,309,111,0,Low,"['USA', 'France', 'Japan']",Biomedical Engineering,Research
+408,32,Non-binary,China,Business,3.8792686599978383,0,317,85,1,High,"['UK', 'Singapore', 'Canada']",Finance,Research
+409,21,Male,Brazil,Humanities,3.258431620291818,0,305,120,0,Medium,"['Canada', 'France', 'USA']",Business Analytics,Academia
+410,25,Male,Brazil,Humanities,3.5440165791827516,2,336,115,0,High,"['France', 'Australia']",Marketing,Industry
+411,32,Female,India,Computer Science,3.6360707637298253,2,306,81,0,Low,"['Canada', 'UK', 'Japan', 'Australia']",Data Science,Research
+412,33,Female,USA,Sciences,3.2210633714537282,1,329,108,1,High,"['France', 'Canada', 'Japan', 'Singapore']",Business Analytics,Academia
+413,23,Non-binary,USA,Sciences,3.978397278800596,3,317,83,0,Low,['Singapore'],Machine Learning,Entrepreneurship
+414,24,Non-binary,Nigeria,Humanities,3.7481919059789974,6,301,80,0,High,"['USA', 'France', 'Canada']",Cybersecurity,Research
+415,23,Non-binary,Nigeria,Business,3.5578132255110697,3,316,98,1,High,"['Germany', 'France']",Marketing,Academia
+416,21,Female,China,Engineering,3.180594598175301,2,331,105,1,Medium,"['Germany', 'Japan', 'UK', 'Singapore']",Business Analytics,Research
+417,21,Female,USA,Business,3.0538582069980262,1,336,104,0,Low,['Australia'],Finance,Industry
+418,32,Female,USA,Arts,3.3200598325209834,1,319,89,0,Medium,['Japan'],Machine Learning,Industry
+419,32,Female,UK,Arts,3.753187335913403,0,330,94,1,Low,['France'],Software Engineering,Entrepreneurship
+420,34,Female,USA,Engineering,3.269331298302025,1,323,101,1,High,"['Singapore', 'Canada']",Marketing,Research
+421,33,Female,China,Humanities,3.539556220495505,4,326,100,1,Low,"['Canada', 'Japan']",Machine Learning,Academia
+422,34,Female,China,Engineering,3.7279471767307433,3,295,101,0,Medium,"['USA', 'Singapore', 'Canada', 'France']",Finance,Entrepreneurship
+423,25,Non-binary,USA,Sciences,3.1079437146464644,0,296,115,0,Medium,"['Netherlands', 'Australia']",Business Analytics,Research
+424,26,Non-binary,Germany,Arts,3.6852980161158735,1,321,113,0,Medium,"['Germany', 'Japan', 'Canada', 'Netherlands']",Renewable Energy,Entrepreneurship
+425,23,Non-binary,USA,Computer Science,3.0918708877100447,3,321,109,1,Low,"['France', 'Netherlands']",Data Science,Academia
+426,32,Non-binary,Nigeria,Computer Science,3.9651297421269964,0,314,104,0,Medium,"['Australia', 'Singapore', 'Japan', 'Netherlands']",Renewable Energy,Entrepreneurship
+427,29,Female,Brazil,Humanities,3.4883941300649397,1,322,107,0,Medium,"['Canada', 'Germany', 'Singapore', 'Australia']",Cybersecurity,Entrepreneurship
+428,25,Male,USA,Sciences,3.1506761077098773,4,296,80,1,Medium,"['Australia', 'USA']",Machine Learning,Entrepreneurship
+429,28,Female,China,Business,3.3423836360335466,1,301,83,0,High,"['France', 'UK', 'Japan', 'Australia']",Cybersecurity,Research
+430,33,Male,Germany,Sciences,3.4134164492952612,0,305,86,1,High,['Australia'],Data Science,Academia
+431,21,Non-binary,China,Computer Science,3.758185011076537,1,305,88,0,Low,['Canada'],Machine Learning,Industry
+432,34,Female,USA,Computer Science,3.743423786076609,4,332,115,0,Low,"['Netherlands', 'Canada', 'Singapore']",Sustainability,Research
+433,25,Non-binary,South Korea,Arts,3.611940505337331,2,325,98,0,Medium,"['UK', 'Germany', 'Singapore', 'Netherlands']",Finance,Industry
+434,23,Female,India,Sciences,3.105930712558493,0,302,80,1,High,"['USA', 'Singapore', 'Japan']",Machine Learning,Industry
+435,32,Non-binary,India,Sciences,3.151569371587674,1,296,89,0,Medium,"['Japan', 'France', 'UK', 'Germany']",Finance,Research
+436,21,Male,China,Computer Science,3.0937569206455566,1,325,115,0,Medium,['France'],Renewable Energy,Research
+437,24,Male,UK,Business,3.57717278328755,2,336,88,1,High,"['USA', 'France']",Biomedical Engineering,Academia
+438,33,Male,India,Humanities,3.877138441511404,3,340,111,0,High,['France'],Marketing,Academia
+439,25,Female,India,Humanities,3.4338005122547717,0,298,111,0,High,"['Canada', 'USA']",Biomedical Engineering,Entrepreneurship
+440,27,Male,India,Sciences,3.160848173957746,4,321,85,0,Low,"['Netherlands', 'Canada', 'Singapore']",Business Analytics,Industry
+441,21,Female,India,Humanities,3.558042325148967,0,300,117,0,Low,"['Netherlands', 'USA', 'Japan', 'Singapore']",Marketing,Academia
+442,23,Male,India,Computer Science,3.8117522168657096,1,297,96,0,Medium,"['Germany', 'Canada', 'Australia']",Marketing,Entrepreneurship
+443,22,Male,USA,Computer Science,3.74171206151293,0,322,89,0,Low,"['UK', 'Australia', 'Japan', 'Canada']",Software Engineering,Academia
+444,29,Female,USA,Sciences,3.8814507796750215,1,312,106,0,High,['USA'],Marketing,Research
+445,30,Female,China,Sciences,3.2779020972488677,1,314,114,0,High,"['Singapore', 'Netherlands']",Data Science,Academia
+446,26,Male,China,Arts,3.193953867267775,1,297,100,0,Low,['UK'],Biomedical Engineering,Industry
+447,30,Female,India,Sciences,3.8798164859419386,0,334,104,0,Medium,"['Japan', 'USA', 'France', 'Australia']",Renewable Energy,Academia
+448,23,Male,China,Business,3.657560312778023,2,311,107,0,Medium,"['Canada', 'Australia']",Finance,Industry
+449,28,Female,USA,Humanities,3.310928930007554,0,293,94,0,Low,"['USA', 'France', 'UK', 'Australia']",Business Analytics,Research
+450,34,Non-binary,Brazil,Sciences,3.742348050572509,3,329,83,0,Medium,"['Canada', 'UK', 'Australia', 'Japan']",Marketing,Industry
+451,28,Non-binary,India,Engineering,3.815118384480368,5,292,108,0,Medium,['Japan'],Business Analytics,Academia
+452,22,Non-binary,USA,Arts,3.6149782403411326,1,318,88,0,Medium,['Singapore'],Renewable Energy,Entrepreneurship
+453,26,Non-binary,China,Engineering,3.6878841098799153,1,330,106,1,High,"['USA', 'Singapore', 'Canada', 'Netherlands']",Business Analytics,Research
+454,27,Non-binary,Germany,Computer Science,3.3752599044426663,1,318,105,0,High,['France'],Renewable Energy,Academia
+455,22,Male,Brazil,Humanities,3.538695667343039,0,323,98,1,Low,['France'],Marketing,Research
+456,31,Non-binary,USA,Sciences,3.524159170726162,1,323,107,1,High,"['UK', 'France']",Renewable Energy,Research
+457,30,Non-binary,China,Engineering,3.8480477911307718,3,317,96,0,Medium,"['USA', 'France']",Marketing,Academia
+458,22,Non-binary,UK,Humanities,3.8399639802821826,2,302,120,0,High,"['Canada', 'Netherlands', 'France']",Software Engineering,Academia
+459,30,Non-binary,India,Computer Science,3.8326804693470433,0,304,99,0,Low,"['Canada', 'Japan', 'USA', 'France']",Software Engineering,Entrepreneurship
+460,21,Female,India,Business,3.011031614262466,3,312,119,1,High,"['USA', 'Australia', 'UK', 'Japan']",Renewable Energy,Research
+461,28,Male,China,Arts,3.7495454844688885,1,333,118,0,Medium,"['USA', 'France']",Software Engineering,Research
+462,21,Non-binary,India,Humanities,3.7586763901110047,3,315,102,0,Medium,"['Japan', 'Singapore', 'Netherlands']",Finance,Academia
+463,29,Non-binary,South Korea,Humanities,3.6783788228551417,2,293,111,0,Low,"['Australia', 'USA', 'Singapore', 'France']",Finance,Industry
+464,31,Non-binary,Brazil,Business,3.7562646578914527,2,315,112,1,High,"['Australia', 'France']",Software Engineering,Academia
+465,26,Male,China,Humanities,3.841970371496709,0,329,84,1,High,['France'],Software Engineering,Research
+466,27,Female,USA,Computer Science,3.4703190541017856,0,298,113,0,High,"['UK', 'France', 'Germany']",Sustainability,Academia
+467,33,Male,South Korea,Computer Science,3.502050213488447,6,294,119,0,Medium,"['Netherlands', 'Singapore', 'Canada', 'UK']",Sustainability,Entrepreneurship
+468,30,Female,UK,Business,3.1247140569113903,0,321,90,0,Low,"['Netherlands', 'France', 'Singapore', 'Australia']",Marketing,Industry
+469,27,Non-binary,Nigeria,Arts,3.3853758830473617,6,309,82,0,High,"['UK', 'Singapore', 'USA']",Renewable Energy,Academia
+470,30,Non-binary,UK,Sciences,3.6433651799117843,1,339,112,1,Medium,"['Canada', 'Australia', 'Japan', 'USA']",Cybersecurity,Entrepreneurship
+471,23,Male,South Korea,Engineering,3.7803997761472745,0,300,90,0,Medium,['France'],Cybersecurity,Research
+472,22,Male,Brazil,Sciences,3.2172090976912107,0,304,95,0,Medium,"['Australia', 'Netherlands', 'Japan']",Software Engineering,Academia
+473,29,Female,India,Humanities,3.1378228991592354,0,321,97,0,High,"['Canada', 'Netherlands', 'Japan', 'Germany']",Business Analytics,Research
+474,28,Female,China,Engineering,3.6630420045004923,5,317,109,1,High,['France'],Software Engineering,Entrepreneurship
+475,33,Male,Germany,Business,3.0018798835249108,1,311,89,1,High,"['Australia', 'USA', 'Netherlands', 'France']",Sustainability,Research
+476,32,Female,India,Business,3.17837258430733,1,330,97,0,High,"['France', 'Canada', 'USA', 'UK']",Marketing,Entrepreneurship
+477,30,Male,Germany,Arts,3.0290713803439537,1,306,117,1,High,"['USA', 'Canada', 'Japan', 'UK']",Software Engineering,Entrepreneurship
+478,27,Female,India,Engineering,3.166885117854871,0,315,98,0,High,"['France', 'Singapore', 'Australia']",Biomedical Engineering,Entrepreneurship
+479,29,Male,India,Computer Science,3.1813192799255052,1,333,115,0,High,['Canada'],Business Analytics,Academia
+480,24,Male,China,Engineering,3.387673594750394,0,296,92,0,High,"['France', 'Japan', 'Germany', 'USA']",Biomedical Engineering,Research
+481,33,Male,India,Humanities,3.402327124686556,3,331,82,0,High,"['Japan', 'France']",Marketing,Research
+482,24,Female,South Korea,Computer Science,3.8742624706102378,1,315,89,0,Medium,"['France', 'Australia', 'UK', 'USA']",Marketing,Industry
+483,21,Female,Germany,Business,3.510109712498825,1,314,117,1,High,['Canada'],Finance,Industry
+484,28,Female,Germany,Engineering,3.7234047656122864,1,299,80,0,Low,"['Japan', 'Singapore', 'Australia', 'USA']",Machine Learning,Industry
+485,34,Male,Nigeria,Sciences,3.1041373579202873,1,334,106,0,Medium,"['Australia', 'Netherlands', 'UK']",Biomedical Engineering,Industry
+486,34,Female,India,Arts,3.225438755463694,6,308,87,0,High,"['Netherlands', 'Germany', 'USA']",Finance,Research
+487,32,Female,USA,Sciences,3.702943440978677,1,300,96,0,Low,"['UK', 'Netherlands']",Sustainability,Entrepreneurship
+488,23,Male,USA,Arts,3.052803960468528,0,302,88,1,High,"['Netherlands', 'UK']",Data Science,Entrepreneurship
+489,27,Non-binary,USA,Humanities,3.486597662243753,2,297,85,0,Low,"['France', 'UK', 'Australia']",Business Analytics,Academia
+490,32,Male,China,Sciences,3.5993689656629337,0,329,104,0,Low,"['Australia', 'Canada', 'France']",Data Science,Entrepreneurship
+491,22,Female,USA,Engineering,3.602145644052481,0,293,118,1,Low,"['France', 'Germany']",Renewable Energy,Research
+492,22,Male,USA,Engineering,3.022932811268042,6,336,107,0,Low,['Germany'],Sustainability,Research
+493,27,Non-binary,South Korea,Sciences,3.3221080042291855,3,320,112,0,Medium,"['Germany', 'Netherlands']",Sustainability,Research
+494,26,Male,UK,Engineering,3.636490651049154,6,317,116,0,Medium,['France'],Data Science,Academia
+495,23,Female,USA,Humanities,3.1489997361492437,1,300,88,0,Low,"['Netherlands', 'Canada', 'Australia']",Biomedical Engineering,Industry
+496,29,Non-binary,Nigeria,Computer Science,3.695415648328053,1,332,97,1,High,['UK'],Machine Learning,Entrepreneurship
+497,30,Female,Brazil,Humanities,3.7459252088136745,0,290,100,1,Low,"['Singapore', 'Netherlands', 'Australia']",Biomedical Engineering,Research
+498,34,Non-binary,India,Arts,3.9819691904461454,0,338,81,0,Medium,"['Singapore', 'UK', 'Netherlands', 'Canada']",Data Science,Research
+499,33,Non-binary,UK,Humanities,3.2098419948564096,3,336,117,1,High,['Netherlands'],Renewable Energy,Industry
+500,26,Male,Germany,Arts,3.825130667666115,1,327,119,0,Medium,"['Japan', 'France', 'UK', 'Australia']",Biomedical Engineering,Research
